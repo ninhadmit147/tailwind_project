@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="/dist/styles.css">
+    <style>
+        .d1{
+            background-image: url('https://images.alphacoders.com/121/thumbbig-1218900.webp');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .d2{
+            background-image: url('https://images6.alphacoders.com/121/thumbbig-1217194.webp');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .d3{
+            background-image: url('https://images8.alphacoders.com/121/thumbbig-1217459.webp');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .man{
+            background-image: url('src/img/man.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .women{
+            background-image: url('src/img/women.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="mx-auto">
+        <!-- Start-header -->
+        <div class="header justify-between flex ">
+            <div class="nav p-2 flex">
+                <a href="index.html">
+                    <img class="w-32" src="src/img/logo.png" alt="">
+                </a>
+                <nav>
+                    <ul class="flex justify-center mt-8">
+                        <li class="mx-5 hover:underline decoration-3 font-bold "><a href="index.html">Home</a></li>
+                        <li class="mx-5 hover:underline decoration-3 font-bold "><a href="cate.html">All products</a></li>
+                        <li class="mx-5 hover:underline decoration-3 font-bold "><a href="about.html">About us</a></li>
+                        <li class="mx-5 hover:underline decoration-3 font-bold "><a href="feedback.html">Feedback</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="flex ">
+                <form class="m-3 flex border-soild border-2 h-12 border-black rounded-full" action="" method="post">
+                    <input type="text" class="border-soild border-0 border-black rounded-full">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 m-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </button>
+                </form>
+                <button class="text-black font-bold my-3 hover:bg-black hover:text-white transition ease-out duration-500 border-soild border-2 border-black rounded-full w-24 h-12 "><a href="signin.html">Sign in</a></button>
+                <button class="text-black font-bold my-3 hover:bg-black hover:text-white transition ease-out duration-500 border-soild border-2 border-black rounded-full w-24 h-12 "><a href="login.html">Logn in</a></button>
+            </div>
+            
+        </div>
+        <!-- End-header -->
+        <div class=" bg-gradient-to-r from-green-400 to-blue-500 h-56 my-10">
+            <div class="text-white font-bold text-3xl text-center py-20">
+                Feedback
+            </div>
+        </div>
+        <div class="article container mx-auto text-center my-5">
+            <h1 class="font-semibold text-3xl">Send Us Feedback</h1>
+            <form class="my-10 px-12 py-5 bg-gray-200 w-1/2 mx-auto rounded-lg" action="" method="post">
+                <label for="" class="text-xl">Full name</label>
+                <br>
+                <input type="text" class="w-2/3 h-8 rounded-md my-5">
+                <br>
+                <label for="" class="text-xl">Email</label>
+                <br>
+                <input type="email" class="w-2/3 h-8 rounded-md my-5">
+                <br>
+                <label for="" class="text-xl">Number phone</label>
+                <br>
+                <input type="number" class="w-2/3 h-8 rounded-md my-5">
+                <br>
+                <label for="" class="text-xl">Feedback content</label>
+                <br>
+                <textarea class="rounded-md my-5" name="" id="" cols="59" rows="10">
+
+                </textarea>
+                <br>
+                <label for="" class="text-xl">Review about us</label>
+                <br>
+                <select class="w-2/3 h-8 rounded-md my-5" name="" id="">
+                    <option value="">---</option>
+                    <option value="">Weak</option>
+                    <option value="">Medium</option>
+                    <option value="">Rather</option>
+                    <option value="">Good</option>
+                    <option value="">Very good</option>
+                </select>
+                <br>
+                <button class="px-12 py-3 bg-black font-medium rounded-lg hover:bg-white border-black border-2 hover:text-black text-white transition delay-150 duration-300 ease-in-out">Send</button>
+            </form>
+        </div>
+        <!-- Start-footer -->
+        <div class="footer bg-black min-h-full h-64 text-white">
+            <div class="grid grid-cols-3 mx-20">
+                <div class="h-48 mt-8 mx-5">
+                    <h1 class="font-bold text-xl">Address</h1>
+                    <hr>
+                    <div class="my-2">
+                        Address: <a class="hover:underline" href="#">Viet Name</a> 
+                    </div>
+                    <div class="my-2">
+                        Email: <a class="hover:underline" href="#">ninhxz147@gmail.com</a> 
+                    </div>
+                    <div class="my-2">
+                        Phone: <a  class="hover:underline" href="#">0363480678</a> 
+                    </div>
+                </div>
+                <div class="h-48 mt-8 mx-5">
+                    <h1 class="font-bold text-xl">Link</h1>
+                    <hr>
+                    <div class="my-2 flex">
+                         <img class="w-11 h-10 mr-2" src="src/img/fb_.png" alt="">
+                         <img class="w-10 h-10 mx-2" src="src/img/zalo_.png" alt="">
+                         <img class="w-10 h-10 mx-2" src="src/img/instar.png" alt="">
+                    </div>
+                </div>
+                <div class="h-48 mt-8 mx-5">
+                    <h1 class="font-bold text-xl">Link</h1>
+                    <hr>
+                    <div class="my-2">
+                        <a class="hover:underline" href="#">Introduce</a>
+                    </div>
+                    <div class="my-2">
+                        <a class="hover:underline " href="test.html">Test</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="mx-20">
+            <p class="text-center">Copyright © 2022 All Rights Reserved. Developed by Ninh Plè</p>
+        </div>
+        <!-- End-footer -->
+    </div>
+</body>
+</html>

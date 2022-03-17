@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/dist/styles.css">
+    <style>
+        .d1{
+            background-image: url('https://images.alphacoders.com/121/thumbbig-1218900.webp');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .d2{
+            background-image: url('https://images6.alphacoders.com/121/thumbbig-1217194.webp');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .d3{
+            background-image: url('https://images8.alphacoders.com/121/thumbbig-1217459.webp');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .man{
+            background-image: url('src/img/man.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .women{
+            background-image: url('src/img/women.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="">
+        <!-- Start-header -->
+        <div class="header justify-between flex ">
+            <div class="nav p-2 flex">
+                <a href="index.html">
+                    <img class="w-32" src="src/img/logo.png" alt="">
+                </a>
+                <nav>
+                    <ul class="flex justify-center mt-8">
+                        <li class="mx-5 hover:underline decoration-3 font-bold "><a href="index.html">Home</a></li>
+                        <li class="mx-5 hover:underline decoration-3 font-bold "><a href="cate.html">All products</a></li>
+                        <li class="mx-5 hover:underline decoration-3 font-bold "><a href="about.html">About us</a></li>
+                        <li class="mx-5 hover:underline decoration-3 font-bold "><a href="feedback.html">Feedback</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="flex">
+                <form class="m-3 flex border-soild border-2 h-12 border-black rounded-full" action="" method="post">
+                    <input type="text" class="border-soild border-0 border-black rounded-full">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 m-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </button>
+                </form>
+                <button class="text-black font-bold my-3 hover:bg-black hover:text-white transition ease-out duration-500 border-soild border-2 border-black rounded-full w-24 h-12 "><a href="signin.html">Sign in</a></button>
+                <button class="text-black font-bold my-3 hover:bg-black hover:text-white transition ease-out duration-500 border-soild border-2 border-black rounded-full w-24 h-12 "><a href="login.html">Logn in</a></button>
+            </div>
+            
+        </div>
+        <!-- End-header -->
+        <!-- Start-aside -->
+        <div class="grid grid-cols-5 gap-2 mt-10 ">
+            <div class="d1 col-span-3 bg-red-300 min-h-full h-56">
+                <h1  class="text-center text-white text-4xl mt-32">
+                    Sale
+                </h1>
+                <p class="underline text-white text-center">description</p>
+            </div>
+            <div class="d2 col-span-2 bg-yellow-300">
+                <h1  class="text-right mr-4 text-white text-4xl mt-32">
+                    Title
+                </h1>
+                <p class="underline text-white text-right mr-4">description</p>
+            </div>
+            <div class="d3 col-span-5 bg-blue-300 min-h-full h-40">
+                <h1  class="text-center mr-4 text-white text-4xl mt-24 underline decoration-3">
+                    Title
+                </h1>
+            </div>
+        </div>
+        <!-- End-aside -->
+        <!-- Start-article -->
+        <div class="article my-10 container mx-auto">
+            <h1 class="text-center text-3xl font-bold">Hot</h1>
+            <div class="grid grid-cols-4 gap-5 mt-12">
+                <a href="product.html" class="bg-gray-100 transition group ease-out duration-500 hover:shadow-md hover:border-black border-2 border-soild rounded-md">
+                    <img src="src/img/product.png" alt="" class="w-5/6 mx-auto mt-8  ease-in duration-300 transform  hover:-translate-y-12">
+                    <h1 class="text-2xl font-semibold text-center">Test</h1>
+                    <p class="group-hover:text-red-900 text-1xl text-center underline">240 $</p>
+                    <div class="product-color flex justify-center my-3">
+                        <div class="bg-red-600 w-3 h-3 mx-2 rounded-full"></div>
+                        <div class="bg-blue-600 w-3 h-3 mx-2 rounded-full"></div>
+                        <div class="bg-yellow-600 w-3 h-3 mx-2 rounded-full"></div>
+                    </div>
+                     
+                </a>
+                <a href="product.html" class="bg-gray-100 transition group ease-out duration-500 hover:shadow-md hover:border-black border-2 border-soild rounded-md">
+                    <img src="src/img/product.png" alt="" class="w-5/6 mx-auto mt-8  ease-in duration-300 transform  hover:-translate-y-12">
+                    <h1 class="text-2xl font-semibold text-center">Test</h1>
+                    <p class="group-hover:text-red-900 text-1xl text-center underline">240 $</p>
+                    <div class="product-color flex justify-center my-3">
+                        <div class="bg-red-600 w-3 h-3 mx-2 rounded-full"></div>
+                        <div class="bg-blue-600 w-3 h-3 mx-2 rounded-full"></div>
+                        <div class="bg-yellow-600 w-3 h-3 mx-2 rounded-full"></div>
+                    </div>
+                     
+                </a>
+                <a href="product.html" class="bg-gray-100 transition group ease-out duration-500 hover:shadow-md hover:border-black border-2 border-soild rounded-md">
+                    <img src="src/img/product.png" alt="" class="w-5/6 mx-auto mt-8  ease-in duration-300 transform  hover:-translate-y-12">
+                    <h1 class="text-2xl font-semibold text-center">Test</h1>
+                    <p class="group-hover:text-red-900 text-1xl text-center underline">240 $</p>
+                    <div class="product-color flex justify-center my-3">
+                        <div class="bg-red-600 w-3 h-3 mx-2 rounded-full"></div>
+                        <div class="bg-blue-600 w-3 h-3 mx-2 rounded-full"></div>
+                        <div class="bg-yellow-600 w-3 h-3 mx-2 rounded-full"></div>
+                    </div>
+                     
+                </a>
+                <a href="product.html" class="bg-gray-100 transition group ease-out duration-500 hover:shadow-md hover:border-black border-2 border-soild rounded-md">
+                    <img src="src/img/product.png" alt="" class="w-5/6 mx-auto mt-8  ease-in duration-300 transform  hover:-translate-y-12">
+                    <h1 class="text-2xl font-semibold text-center">Test</h1>
+                    <p class="group-hover:text-red-900 text-1xl text-center underline">240 $</p>
+                    <div class="product-color flex justify-center my-3">
+                        <div class="bg-red-600 w-3 h-3 mx-2 rounded-full"></div>
+                        <div class="bg-blue-600 w-3 h-3 mx-2 rounded-full"></div>
+                        <div class="bg-yellow-600 w-3 h-3 mx-2 rounded-full"></div>
+                    </div>
+                     
+                </a>
+                <a href="product.html" class="bg-gray-100 transition group ease-out duration-500 hover:shadow-md hover:border-black border-2 border-soild rounded-md">
+                    <img src="src/img/product.png" alt="" class="w-5/6 mx-auto mt-8  ease-in duration-300 transform  hover:-translate-y-12">
+                    <h1 class="text-2xl font-semibold text-center">Test</h1>
+                    <p class="group-hover:text-red-900 text-1xl text-center underline">240 $</p>
+                    <div class="product-color flex justify-center my-3">
+                        <div class="bg-red-600 w-3 h-3 mx-2 rounded-full"></div>
+                        <div class="bg-blue-600 w-3 h-3 mx-2 rounded-full"></div>
+                        <div class="bg-yellow-600 w-3 h-3 mx-2 rounded-full"></div>
+                    </div>
+                     
+                </a>
+                <a href="product.html" class="bg-gray-100 transition group ease-out duration-500 hover:shadow-md hover:border-black border-2 border-soild rounded-md">
+                    <img src="src/img/product.png" alt="" class="w-5/6 mx-auto mt-8  ease-in duration-300 transform  hover:-translate-y-12">
+                    <h1 class="text-2xl font-semibold text-center">Test</h1>
+                    <p class="group-hover:text-red-900 text-1xl text-center underline">240 $</p>
+                    <div class="product-color flex justify-center my-3">
+                        <div class="bg-red-600 w-3 h-3 mx-2 rounded-full"></div>
+                        <div class="bg-blue-600 w-3 h-3 mx-2 rounded-full"></div>
+                        <div class="bg-yellow-600 w-3 h-3 mx-2 rounded-full"></div>
+                    </div>
+                     
+                </a>
+                <a href="product.html" class="bg-gray-100 transition group ease-out duration-500 hover:shadow-md hover:border-black border-2 border-soild rounded-md">
+                    <img src="src/img/product.png" alt="" class="w-5/6 mx-auto mt-8  ease-in duration-300 transform  hover:-translate-y-12">
+                    <h1 class="text-2xl font-semibold text-center">Test</h1>
+                    <p class="group-hover:text-red-900 text-1xl text-center underline">240 $</p>
+                    <div class="product-color flex justify-center my-3">
+                        <div class="bg-red-600 w-3 h-3 mx-2 rounded-full"></div>
+                        <div class="bg-blue-600 w-3 h-3 mx-2 rounded-full"></div>
+                        <div class="bg-yellow-600 w-3 h-3 mx-2 rounded-full"></div>
+                    </div>
+                     
+                </a>
+                <a href="product.html" class="bg-gray-100 transition group ease-out duration-500 hover:shadow-md hover:border-black border-2 border-soild rounded-md">
+                    <img src="src/img/product.png" alt="" class="w-5/6 mx-auto mt-8  ease-in duration-300 transform  hover:-translate-y-12">
+                    <h1 class="text-2xl font-semibold text-center">Test</h1>
+                    <p class="group-hover:text-red-900 text-1xl text-center underline">240 $</p>
+                    <div class="product-color flex justify-center my-3">
+                        <div class="bg-red-600 w-3 h-3 mx-2 rounded-full"></div>
+                        <div class="bg-blue-600 w-3 h-3 mx-2 rounded-full"></div>
+                        <div class="bg-yellow-600 w-3 h-3 mx-2 rounded-full"></div>
+                    </div>
+                     
+                </a>
+                <a href="product.html" class="bg-gray-100 transition group ease-out duration-500 hover:shadow-md hover:border-black border-2 border-soild rounded-md">
+                    <img src="src/img/product.png" alt="" class="w-5/6 mx-auto mt-8  ease-in duration-300 transform  hover:-translate-y-12">
+                    <h1 class="text-2xl font-semibold text-center">Test</h1>
+                    <p class="group-hover:text-red-900 text-1xl text-center underline">240 $</p>
+                    <div class="product-color flex justify-center my-3">
+                        <div class="bg-red-600 w-3 h-3 mx-2 rounded-full"></div>
+                        <div class="bg-blue-600 w-3 h-3 mx-2 rounded-full"></div>
+                        <div class="bg-yellow-600 w-3 h-3 mx-2 rounded-full"></div>
+                    </div>
+                     
+                </a>
+            </div>
+        </div>
+        <!-- End-article -->
+        <!-- Start-news -->
+        <div class="news  container mx-auto">
+            <h1 class="text-center text-3xl font-bold">News</h1>
+            <a href="#">
+            <div class="grid grid-cols-5  bg-gradient-to-r from-indigo-500 min-h-full h-80 rounded-md my-12">
+                <img src="src/img/news.png" class="m-16" alt="">
+                <div class="text-white ml-24 mt-24 w-64">
+                    <h1 class="text-3xl hover:underline ">Nike React Infinity Run Flyknit 3</h1>
+                    <p>Women's Road Running Shoes</p>
+                </div>
+                <div class="col-end-6 col-span-2 bg-blue-300 rounded-l-full h-auto">
+                    <p class="w-2/3 ml-16 my-20">
+                        Still our most tested shoe. Still designed to help keep you running. The Nike React Infinity Run 3 offers a soft, stable feel and a smooth ride that will carry you through routes—both long and short. A breathable upper is made to feel contained, yet flexible. We even added more cushioning to the collar for a soft, protected feel. Keep running, we've got you.
+                    </p>
+                </div>
+            </div>
+            </a>
+        </div>
+        <!-- End-news -->
+        <!-- Start-gender -->
+        <div class="gender container mx-auto">
+            <div class="grid grid-cols-2 col-span-4 mb-12">
+                <a href="#" class="man min-h-full h-80 mr-1 shadow-lg shadow-indigo-500/40">
+                    <div class="clear-bolh text-3xl bg-black text-white w-24 text-center rounded-full bottom-1 left-1 absolute">
+                        Men's
+                    </div>
+                </a>
+                <a href="#" class="women min-h-full h-80 ml-1 shadow-lg hover:shadow-indigo-500/40">
+                     <div class="absolute clear-bolh text-3xl bg-white text-black w-32 text-center rounded-full bottom-1 left-1">
+                        Women's
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- End-gender -->
+        <!-- Start-footer -->
+        <div class="footer bg-black min-h-full h-64 text-white">
+            <div class="grid grid-cols-3 mx-20">
+                <div class="h-48 mt-8 mx-5">
+                    <h1 class="font-bold text-2xl">Address</h1>
+                    <hr>
+                    <div class="my-2">
+                        Address: <a class="hover:underline" href="#">Viet Name</a> 
+                    </div>
+                    <div class="my-2">
+                        Email: <a class="hover:underline" href="#">ninhxz147@gmail.com</a> 
+                    </div>
+                    <div class="my-2">
+                        Phone: <a  class="hover:underline" href="#">0363480678</a> 
+                    </div>
+                </div>
+                <div class="h-48 mt-8 mx-5">
+                    <h1 class="font-bold text-2xl">Link</h1>
+                    <hr>
+                    <div class="my-2 flex">
+                         <img class="w-11 h-10 mr-2" src="src/img/fb_.png" alt="">
+                         <img class="w-10 h-10 mx-2" src="src/img/zalo_.png" alt="">
+                         <img class="w-10 h-10 mx-2" src="src/img/instar.png" alt="">
+                    </div>
+                </div>
+                <div class="h-48 mt-8 mx-5">
+                    <h1 class="font-bold text-2xl">Link</h1>
+                    <hr>
+                    <div class="my-2">
+                        <a class="hover:underline" href="#">Introduce</a>
+                    </div>
+                    <div class="my-2">
+                        <a class="hover:underline " href="test.html">Test</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="mx-20">
+            <p class="text-center">Copyright © 2022 All Rights Reserved. Developed by Ninh Plè</p>
+        </div>
+        <!-- End-footer -->
+    </div>
+</body>
+</html>
